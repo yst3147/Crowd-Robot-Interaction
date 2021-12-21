@@ -30,16 +30,41 @@ Crowd-robot interaction은 단순히 장애물 피하기가 아니라  사람과
 - reinforcement learning
   - Train 10,000 episode with OM-SARL policy
 
-## Test Environment
+
+## Test Simulation Videos
+Simulation with OM-SARL policy
+
+### Test Environment
+Test with 500 episodes
 - Increasing the number of people (5, 10, 20)
 - Fixed Obstacles 10
 - Fixed Obstacles 5 + People 5
 
-  
-## Simulation Videos
+### Increasing the number of people (10 People)
+- Success rate : 0.91
+- Collision rate : 0.09
 
+Success             | Collision
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/39907669/146884422-ff853693-884d-416b-9fca-9de94fd61529.gif" width= "400"/>|<img src="https://user-images.githubusercontent.com/39907669/146884686-f545b23b-f2c4-4947-87fb-9e4d9607a9de.gif" width= "400"/>
 
- 
+### Fixed Obstacles 10
+- Success rate : 0.20
+- Timeout rate : 0.80
+
+Success             | Timeout
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/39907669/146885125-6cc02267-42c0-4d1d-8b40-02b2da210c00.gif" width= "400"/>|<img src="https://user-images.githubusercontent.com/39907669/146885006-64f53577-ecf7-4c00-a04c-a5e96521eee3.gif" width= "400"/>
+
+### Fixed Obstacles 5 + People 5
+- Success rate : 0.78
+- Timeout rate : 0.21
+- Collision rate : 0.01
+
+Success             | Timeout
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/39907669/146885731-e8b2d7f3-cc23-46b7-8d57-c3b4979d186f.gif" width= "400"/>|<img src="https://user-images.githubusercontent.com/39907669/146885845-ff621ce5-d102-47f7-a18e-e9c5ddd14071.gif" width= "400"/>
+
 ## Citation
 ```bibtex
 @article{liu2020snce,
