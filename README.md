@@ -16,7 +16,7 @@ Crowd-robot interaction은 단순히 장애물 피하기가 아니라  사람과
   - [CrowdNav](crowd_nav.ipynb) : CrowdNav Train Test Experiment Code
 - Social-NCE
   - [socialNCE](socialNCE_styoo.ipynb) : SocialNCE Training & Evaluation Code
-  - [socialNCEtest](SocialNCEtest.ipynb) : SocialNCE Test with CrowdNav unction
+  - [socialNCEtest](SocialNCEtest.ipynb) : SocialNCE Test with CrowdNav function
 
 ## Simulation Setup
 - IDE : Google Colab Pro
